@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from flask_reuoloaded import UploadSet, configure_uploads, ALL
+from flask_reuploaded import UploadSet, configure_uploads, ALL
 
 fileset = UploadSet('files', ALL)
 
