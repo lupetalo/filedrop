@@ -1,4 +1,4 @@
-FROM python:3.5.2-alpine
+FROM python:3.5.2-ubuntu
 
 RUN pip3 install flask flask-uploads
 
