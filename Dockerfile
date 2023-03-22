@@ -10,4 +10,3 @@ EXPOSE 5000
 VOLUME /app/uploads
 ENV FLASK_APP=filedrop.py
 CMD flask run --host=0.0.0.0
-
